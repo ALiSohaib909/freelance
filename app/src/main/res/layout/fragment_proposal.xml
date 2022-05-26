@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.ProposalFragment">
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="180dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="Freelancer Profile"
+            android:textColor="#0277BD"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/iv_account"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/iv_account"
+            android:layout_width="51dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_account_circle_24" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="106dp"
+            android:layout_height="27dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="22dp"
+            android:gravity="center"
+            android:text="Active"
+            android:textColor="#2E7D32"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_account" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="103dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="36dp"
+            android:gravity="center"
+            android:text="Referals"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/textView9"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="105dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="11dp"
+            android:gravity="center"
+            android:text="Archived"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="230dp"
+            android:layout_height="27dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="9dp"
+            android:gravity="center|left"
+            android:text="Active Proposal(0)"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="230dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="6dp"
+            android:gravity="center|left"
+            android:text="Submitted Proposal(0)"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="224dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="117dp"
+            android:gravity="center|left"
+            android:text="Offers(0)"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
